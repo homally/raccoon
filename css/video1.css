@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(img2/fondo.png);
+    background-size: cover;
+}
+
+.nav{
+    height: 2rem ;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.nav-link{
+    color: white;
+}
+.offcanvas-header {
+    background-image: url(img2/fondo1.png);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    color: rgb(255, 255, 255);
+}
+.offcanvas-body {
+    background-image: url(img2/fondo2.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    white-space: row;
+    align-items: center; 
+}
+.boton {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px;
+    border: rgb(226, 226, 226) solid 2px transparent;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}   
+.boton:hover{
+    background-color: rgba(251, 125, 255, 0);
+    color: rgb(50, 0, 167);
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.espacio{
+  background-color: rgba(240, 248, 255, 0);
+  height: 2rem;
+}
+
+.caja{
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.parrafo{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.datos{
+    background-color: black;
+    color: aliceblue;
+    height: 14rem;
+    border-radius: 1px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+  }
+  .final{
+    background-color: black;
+    height: 2rem;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+  }
